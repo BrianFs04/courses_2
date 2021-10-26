@@ -1,0 +1,20 @@
+{
+	"name": "upTaskGraphQL",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node .",
+		"dev": "nodemon --exec babel-node ."
+	},
+	"license": "MIT",
+	"dependencies": {
+		"apollo-server": "^3.4.0",
+		"graphql": "^15.6.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.15.8",
+		"@babel/node": "^7.15.8",
+		"@babel/preset-env": "^7.15.8",
+		"nodemon": "^2.0.14"
+	}
+}
